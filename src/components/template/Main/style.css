@@ -1,0 +1,92 @@
+main {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "aside content"
+    "aside footer"
+  ;
+
+  grid-template-columns: 17% 83%;
+  background-color: #102027;
+}
+
+header.header .logo {
+  color: #CCC;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-left: 15px;
+}
+
+header.header {
+  height: 70px;
+  width: 100vw;
+  background-color: #263238;
+  display: flex;
+  align-items: center;
+  grid-area: header;
+}
+
+footer.footer {
+  grid-area: footer;
+  background-color: #000;
+  height: 30px;
+  color: #CCC;
+}
+
+footer.footer span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-weight: 700;
+}
+
+
+footer.footer span i {
+  color: red;
+  margin: 0 8px;
+}
+
+aside.projects-list {
+  grid-area: aside;
+  position: relative;
+  overflow-y: scroll;
+  height: calc(100vh - 70px);
+  width: 100%;
+}
+
+ul.menu-projects-area {
+  background-color: #222E;
+  min-height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+li.project {
+  height: 15vh;
+  width: 100%;
+  position: relative;
+}
+
+li.project button {
+  width: 100%;
+  height: 100%;
+  background-color: #37474F;
+  border: 2px solid rgba(0, 0, 0, .4);
+  color: #DDD;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 0;
+}
+
+li.project button:hover {
+  cursor: pointer;
+  background-color: rgba(55, 71, 79, .8);
+}
+
