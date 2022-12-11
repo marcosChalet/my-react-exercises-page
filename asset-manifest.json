@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-react-exercises-page/static/css/main.4b63d1cb.css",
-    "main.js": "/my-react-exercises-page/static/js/main.ea62ca5a.js",
+    "main.js": "/my-react-exercises-page/static/js/main.b2b091a5.js",
     "static/js/787.87169f3d.chunk.js": "/my-react-exercises-page/static/js/787.87169f3d.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/my-react-exercises-page/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/my-react-exercises-page/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -10,11 +10,11 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/my-react-exercises-page/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/my-react-exercises-page/index.html",
     "main.4b63d1cb.css.map": "/my-react-exercises-page/static/css/main.4b63d1cb.css.map",
-    "main.ea62ca5a.js.map": "/my-react-exercises-page/static/js/main.ea62ca5a.js.map",
+    "main.b2b091a5.js.map": "/my-react-exercises-page/static/js/main.b2b091a5.js.map",
     "787.87169f3d.chunk.js.map": "/my-react-exercises-page/static/js/787.87169f3d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4b63d1cb.css",
-    "static/js/main.ea62ca5a.js"
+    "static/js/main.b2b091a5.js"
   ]
 }
