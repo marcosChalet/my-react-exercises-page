@@ -10,9 +10,11 @@ const Contador = _ => {
   return (
     <div className="modal">
       <div className="counter">
-        <h1>Valor = {count}</h1>
-        <button onClick={() => setCount(count + 1)}>+</button>
-        <button onClick={() => setCount(count - 1)}>-</button>
+        <h1>Valor = <strong>{count}</strong></h1>
+        <div className="btns">
+          <button onClick={() => setCount(count + 1)}>+</button>
+          <button onClick={() => setCount(count - 1)}>-</button>
+        </div>
       </div>
     </div>
   )
