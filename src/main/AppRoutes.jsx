@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom'
 
 import Home from '../components/Home/'
+import Clock from '../components/Clock/'
 
 const MyRoutes = _ => {
   return (
@@ -13,6 +14,7 @@ const MyRoutes = _ => {
     <Router>
       <Routes>
         <Route exact path='/' element={<Home />} />
+        <Route exact path='/clock' element={<Clock />} />
         <Route path='*' element={<Home />} />
       </Routes>
     </Router>
