@@ -18,7 +18,7 @@ const Contador = _ => {
   )
 }
 
-const Clock = _ => {
+const Counter = _ => {
   return (
     <Main>
       <div className="App container">
@@ -28,4 +28,4 @@ const Clock = _ => {
   );
 }
 
-export default Clock
+export default Counter

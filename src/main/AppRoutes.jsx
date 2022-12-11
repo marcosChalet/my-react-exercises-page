@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom'
 
 import Home from '../components/Home/'
-import Clock from '../components/Clock/'
+import Counter from '../components/Counter/'
 
 const MyRoutes = _ => {
   return (
@@ -14,7 +14,7 @@ const MyRoutes = _ => {
     <Router>
       <Routes>
         <Route exact path='/' element={<Home />} />
-        <Route exact path='/clock' element={<Clock />} />
+        <Route exact path='/clock' element={<Counter />} />
         <Route path='*' element={<Home />} />
       </Routes>
     </Router>

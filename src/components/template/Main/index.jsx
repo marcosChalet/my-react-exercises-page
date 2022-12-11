@@ -17,7 +17,7 @@ const Header = _ => {
 const Projects = _ => {
 
   const myProjects = [
-    "Clock - useEffect", "Em breve 2", "Em breve 3",
+    "Counter - useEffect", "Em breve 2", "Em breve 3",
     "Em breve 4", "Em breve 5", "Em breve 6",
     "Em breve 7", "Em breve 8", "Em breve 9",
   ]
