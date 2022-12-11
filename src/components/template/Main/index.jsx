@@ -26,7 +26,7 @@ const Projects = _ => {
     <aside className="projects-list">
       <ul className="menu-projects-area">
         {myProjects.map(project =>
-          <li key={project} className="project"><Link to="/clock"><button>{project}</button></Link></li>
+          <li key={project} className="project"><Link to="/counter"><button>{project}</button></Link></li>
         )}
       </ul>
     </aside>
