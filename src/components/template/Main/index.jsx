@@ -17,17 +17,25 @@ const Header = _ => {
 const Projects = _ => {
 
   const myProjects = [
-    "Counter - useEffect", "Em breve 2", "Em breve 3",
-    "Em breve 4", "Em breve 5", "Em breve 6",
-    "Em breve 7", "Em breve 8", "Em breve 9",
+    {link : "counter", name : "Counter - useState"},
+    {link : "temporary", name : "Em breve 2"},
+    {link : "temporary", name : "Em breve 3"},
+    {link : "temporary", name : "Em breve 4"},
+    {link : "temporary", name : "Em breve 5"},
+    {link : "temporary", name : "Em breve 6"},
+    {link : "temporary", name : "Em breve 7"},
+    {link : "temporary", name : "Em breve 8"},
+    {link : "temporary", name : "Em breve 9"},
   ]
 
   return (
     <aside className="projects-list">
       <ul className="menu-projects-area">
-        {myProjects.map(project =>
-          <li key={project} className="project"><Link to="/counter"><button>{project}</button></Link></li>
-        )}
+        {myProjects.map(project => (
+          <li key={project.name} className="project">
+            <Link to={`/${project.link}`}><button>{project.name}</button></Link>
+          </li>
+        ))}
       </ul>
     </aside>
   )
