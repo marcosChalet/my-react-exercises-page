@@ -19,7 +19,7 @@ const Projects = _ => {
   const myProjects = [
     {link : "counter-1", name : "Counter - useState"},
     {link : "counter-2", name : "Counter - useEffect"},
-    {link : "temporary", name : "Em breve 3"},
+    {link : "counter-3", name : "Counter - useRef"},
     {link : "temporary", name : "Em breve 4"},
     {link : "temporary", name : "Em breve 5"},
     {link : "temporary", name : "Em breve 6"},

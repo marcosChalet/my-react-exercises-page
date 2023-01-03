@@ -8,6 +8,7 @@ import {
 import Home from '../components/Home/'
 import Counter1 from '../components/Counter1/'
 import Counter2 from '../components/Counter2/'
+import Counter3 from '../components/Counter3/'
 
 const AppRoutes = _ => {
   return (
@@ -16,6 +17,7 @@ const AppRoutes = _ => {
         <Route exact path='/' element={<Home />} />
         <Route exact path='/counter-1' element={<Counter1 />} />
         <Route exact path='/counter-2' element={<Counter2 />} />
+        <Route exact path='/counter-3' element={<Counter3 />} />
         <Route path='*' element={<Home />} />
       </Routes>
     </Router>
